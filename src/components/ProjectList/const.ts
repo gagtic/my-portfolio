@@ -1,6 +1,7 @@
 import SitDownIcon from "../../assets/images/pngs/sit-down.png";
 import PanelistIcon from "../../assets/images/pngs/panelist.png";
 import MCAIcon from "../../assets/images/pngs/MCA.jpg";
+import shareSlateIcon from "../../assets/images/pngs/share-slate.png";
 
 export const PROJECTS = [
   {
@@ -22,6 +23,16 @@ export const PROJECTS = [
       "https://play.google.com/store/apps/details?id=com.panelist&hl=en&gl=US",
     appStoreLink: "https://apps.apple.com/pk/app/panelist/id1618656782",
     appIconUri: PanelistIcon,
+  },
+  {
+    title: "Share Slate",
+    description:
+      "Share Slate is a social media app with a news feed for updates, real-time chat via WebSockets, and multimedia sharing from gallery and camera. It also includes a feed system for users to post and connect.",
+    techStack: "React Native, Android Studio",
+    playStoreLink:
+      "https://play.google.com/store/apps/details?id=com.shareslatefun",
+    appStoreLink: "https://apps.apple.com/pk/app/share-slate-fun/id1670628391",
+    appIconUri: shareSlateIcon,
   },
   {
     title: "My Cleaning App",
